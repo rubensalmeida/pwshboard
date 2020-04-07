@@ -1,3 +1,5 @@
 # pwshboard
-websocketd + powershell + javascript = pwshboard
-couldn't be easier!
+
+powershell + websocketd + javascript = pwshboard
+
+Couldn't be easier!
