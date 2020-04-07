@@ -6,19 +6,24 @@ Couldn't be easier!
 
 1) create a powershells script. Here's a suggestion:
 
-```#start of file counter.ps1
+```
+#start of file counter.ps1
 1..10 | ForEach-Object {
     $_;
     Start-Sleep -Seconds 1;
 }
-#end of file counter.ps1```
+#end of file counter.ps1
+```
 
 2) start a websocketd instance of your powershell script:
-```c:\tools\websocketd.exe --port=8080 pwsh.exe -File c:\scripts\counter.ps1```
+```
+c:\tools\websocketd.exe --port=8080 pwsh.exe -File c:\scripts\counter.ps1
+```
 
 3) create a basic HTML5 file. Host it on any webserver or open it directly from a file:// URL. Here's an example:
 
-```<!DOCTYPE html>
+```
+<!DOCTYPE html>
 <html lang='en'>
 <head>
 	<meta charset='UTF-8'>
@@ -44,7 +49,8 @@ Couldn't be easier!
 		<pre id="log"></pre>
 	</div>
 </body>
-</html>```
+</html>
+```
 
 If you can see the counter numbers showing up on your webpage, everything is working!
 
