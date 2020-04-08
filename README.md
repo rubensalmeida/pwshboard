@@ -23,6 +23,7 @@ c:\tools\websocketd.exe --port=8080 pwsh.exe -File c:\scripts\counter.ps1
 3) create a basic HTML5 file. Host it on any webserver or open it directly from a file:// URL. Here's an example:
 
 ```
+<!-- start of file counter.html -->
 <!DOCTYPE html>
 <html lang='en'>
 <head>
@@ -50,6 +51,7 @@ c:\tools\websocketd.exe --port=8080 pwsh.exe -File c:\scripts\counter.ps1
 	</div>
 </body>
 </html>
+<!-- end of file counter.html -->
 ```
 
 If you can see the counter numbers showing up on your webpage, everything is working!
