@@ -64,4 +64,4 @@ If you're interested in streaming realtime data into your dashboard have a look 
 - [Epoch](https://epochjs.github.io/epoch/real-time/)
 - [SmoothieCharts](http://smoothiecharts.org/)
 
-Hope this can help you the same as it did to me!
+Hope this can help you the same way it helped me!
