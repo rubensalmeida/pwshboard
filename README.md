@@ -1,6 +1,6 @@
 # pwshboard
 
-powershell + websocketd + javascript = pwshboard
+[powershell](https://github.com/powershell/powershell) + [websocketd](https://github.com/joewalnes/websocketd) + [javascript](https://github.com/joewalnes/websocketd/blob/master/examples/html/count.html) = pwshboard
 
 Couldn't be easier!
 
@@ -56,10 +56,12 @@ c:\tools\websocketd.exe --port=8080 pwsh.exe -File c:\scripts\counter.ps1
 
 If you can see the counter numbers showing up on your webpage, everything is working!
 
-At this point you can give your dashboard a more interessting look with these:
+At this point the sky is the limit! 
 
+If you're interested in streaming realtime data into your dashboard have a look at:
 - [Bootstrap](https://getbootstrap.com/docs/4.4/examples/dashboard/)
-- [Rickshaw](https://tech.shutterstock.com/rickshaw/examples/fixed.html)
+- [Rickshaw](https://tech.shutterstock.com/rickshaw/examples/)
 - [Epoch](https://epochjs.github.io/epoch/real-time/)
+- [SmoothieCharts](http://smoothiecharts.org/)
 
 Hope this can help you the same as it did to me!
