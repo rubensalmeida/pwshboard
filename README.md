@@ -7,12 +7,12 @@ Couldn't be easier!
 1) create a powershells script. Here's a suggestion:
 
 ```
-#start of file counter.ps1
+#start of c:\scripts\counter.ps1
 1..10 | ForEach-Object {
     $_;
     Start-Sleep -Seconds 1;
 }
-#end of file counter.ps1
+#end of c:\scripts\counter.ps1
 ```
 
 2) start a websocketd instance of your powershell script:
